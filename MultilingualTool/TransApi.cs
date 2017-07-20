@@ -12,7 +12,7 @@ using System.Text;
 using System.Threading.Tasks;  
 using System.Web; 
 
-namespace MultilingualTool
+namespace Multilingual
 {
     public class TransApi
     {
@@ -127,5 +127,12 @@ namespace MultilingualTool
         }
         [DataMember(Order = 2)]
         public Trans_result[] trans_result;
+    }
+
+    public enum LangType
+    {
+        zh,
+        en,
+        cht,
     }
 }
