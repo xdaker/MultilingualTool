@@ -131,6 +131,7 @@ namespace Multilingual
 
     public enum LangType
     {
+        auto=0,
         zh,
         en,
         cht,

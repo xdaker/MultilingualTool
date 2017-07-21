@@ -50,8 +50,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FinBaseMultilingual.cs" />
-    <Compile Include="FlieHelper.cs" />
+    <Compile Include="FileHelper.cs" />
     <Compile Include="JsonSerializer.cs" />
+    <Compile Include="Multilingual.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TransApi.cs" />

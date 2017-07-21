@@ -4,11 +4,10 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
-namespace Multilingual
+namespace MultilingualTool
 {
-    public class FlieHelper
+    public class FileHelper
     {
 
         /// <summary>
